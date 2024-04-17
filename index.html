@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Countdown Timer</h1>
+    <div class="input-section">
+        <div>
+            <label for="days">Days:</label>
+            <input type="number" id="days" min="0" value="0">
+        </div>
+        <div>
+            <label for="hours">Hours:</label>
+            <input type="number" id="hours" min="0" max="23" value="0">
+        </div>
+        <div>
+            <label for="minutes">Minutes:</label>
+            <input type="number" id="minutes" min="0" max="59" value="0">
+        </div>
+        <div>
+            <label for="seconds">Seconds:</label>
+            <input type="number" id="seconds" min="0" max="59" value="0">
+        </div>  
+    </div>
+    <div class="timer">
+        <div>
+            <span class="label">Days</span>
+            <span class="days">00</span>
+        </div>
+        <div>
+            <span class="label">Hours</span> 
+            <span class="hours">00</span>
+        </div>
+        <div>
+            <span class="label">Minutes</span>  
+            <span class="minutes">00</span>
+        </div>
+        <div>
+            <span class="label">Seconds</span>  
+            <span class="seconds">00</span>
+        </div> 
+    </div>
+    <div class="controls">
+      <button class="start">Start</button>
+      <button class="pause">Pause</button>
+      <button class="reset">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
