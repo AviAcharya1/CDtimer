@@ -1,4 +1,4 @@
 # COUNTDOWN TIMER
 
-##Porject is live @:
+## Porject is live @:
 - https://aviacharya1.github.io/CDtimer/
